@@ -16,12 +16,12 @@
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        {% if site.profile_image %}
+          <img src="{{ site.profile_image }}" alt="Profile Image">
+        {% endif %}
+        
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
-
-        {% if site.profile_page %}
-          <img src="{{ site.profile_image }}" alt="Profile Image">
         {% endif %}
       </header>
       <section>
