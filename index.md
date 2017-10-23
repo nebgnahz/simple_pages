@@ -50,6 +50,12 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
 
+Adding links to files is easy. `[cv](files/cv.pdf)` creates links to `cv.pdf`
+inside `files` folder. Similarly, you can show images by
+`![oski](files/oski.jpg)`.
+
+![oski](files/oski.jpg)
+
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README,
