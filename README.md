@@ -1,6 +1,16 @@
-## Welcome to GitHub Pages
+## Simple Webpage Template with Github Pages
 
-You can use the [editor on GitHub](https://github.com/nebgnahz/simple_pages/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Demo](https://nebgnahz.github.io/simple_pages/). 
+
+### Feature
+
+- [x] extremely simple and minimal...
+
+### Usage
+
+Edit [_config.yml](_config.yml) and put relavent files in [files](files), Github will build the project for you and render it live.
+
+You do not need command line. Use the editor on GitHub, you can directly change the content and preview the changes.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
